@@ -100,6 +100,8 @@ h1 {
   color: #ffffff;
 }
 
+/* section1 */
+
 .section1-cont {
   margin-top: 120px;
   display: flex;
@@ -117,8 +119,10 @@ h1 {
   color: #434455;
 }
 
+/* section2 */
+
 h2 {
-  margin-top: 120px;
+  padding-top: 120px;
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
@@ -137,4 +141,49 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   margin-top: 72px;
+}
+
+/* section3 */
+
+.section3-cont {
+  margin-top: 120px;
+  height: 732px;
+  background: #f4f4fd;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  margin-top: 72px;
+}
+
+.team-member {
+  width: 264px;
+  height: 380px;
+  margin-left: 12px;
+  margin-right: 12px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  /* SLATE */
+  color: #434455;
+  background: #ffffff;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  /* NAVY BLUE */
+  color: #2e2f42;
+  margin-bottom: 8px;
+  margin-top: 32px;
+}
+
+figure {
+  margin: 0px;
 }
