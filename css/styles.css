@@ -8,7 +8,7 @@ body {
   margin: 0;
 }
 
-.header {
+.nav-header {
   margin: 0;
   display: inline-block;
   padding-left: 156px;
@@ -91,6 +91,9 @@ h1 {
   line-height: 60px;
   /* or 107% */
   text-align: center;
+  width: 496px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-buttonc {
@@ -99,6 +102,9 @@ h1 {
 }
 
 .hero-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   outline: none;
   border: none;
   width: 169px;
