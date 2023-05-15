@@ -1,27 +1,29 @@
 html,
 body {
-  font-family: "Roboto";
+  font-family: "Roboto", "Helvetica Neue", "Verdana", "Tahoma", "sans-serif";
   font-style: normal;
   letter-spacing: 0.02em;
   /* SLATE */
   color: #434455;
   margin: 0;
 }
+
 .header {
   display: flex;
   width: 100%;
+  margin-left: 156px;
   margin-top: 24px;
   margin-bottom: 25px;
   /* NAVY BLUE */
   color: #2e2f42;
 }
-a {
+
+.link {
   text-decoration: none;
   /* NAVY BLUE */
   color: #2e2f42;
 }
 .logo {
-  margin-left: 156px;
   margin-right: 76px;
   display: inline;
   font-family: "Raleway";
@@ -181,9 +183,47 @@ h3 {
   /* NAVY BLUE */
   color: #2e2f42;
   margin-bottom: 8px;
-  margin-top: 32px;
+  margin-top: 0px;
 }
 
 figure {
   margin: 0px;
+}
+figcaption {
+  margin: 0px;
+  margin-top: 20px;
+}
+
+/* footer */
+
+.footer {
+  height: 312px;
+  /* NAVY BLUE */
+  background: #2e2f42;
+  padding-top: 100px;
+}
+
+.footer-element {
+  width: 264px;
+  margin-left: 156px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* CLOUD */
+  color: #f4f4fd;
+}
+
+.footer-logo > a {
+  margin-right: 76px;
+  display: inline;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  /* CLOUD */
+  color: #f4f4fd;
+}
+.footer-logo-1 {
+  color: #4d5ae5;
 }
