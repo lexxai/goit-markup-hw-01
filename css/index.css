@@ -111,6 +111,7 @@ h1 {
 }
 
 .section1-ceil {
+  list-style-type: none;
   width: 264px;
   margin-left: 12px;
   margin-right: 12px;
@@ -160,6 +161,7 @@ h2 {
 }
 
 .team-member {
+  list-style-type: none;
   width: 264px;
   height: 380px;
   margin-left: 12px;
