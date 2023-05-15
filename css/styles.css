@@ -52,6 +52,10 @@ body {
   margin-right: 40px;
 }
 
+address {
+  display: inline-block;
+}
+
 .info_contacts {
   list-style-type: none;
   display: inline-flex;
